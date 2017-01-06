@@ -1,3 +1,10 @@
+
+
+article {
+  margin: 30px;
+  text-align: left;
+}
+
 body {
   background-color: lightblue;
   color: black;
@@ -5,6 +12,34 @@ body {
   font-size: 18px;
   margin: 0;
   padding: 0;
+}
+
+figcaption {
+  font-size: 70%;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  font-size: 75%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  clear: both;
+  padding-top: 40px;
+}
+
+header {
+  margin-top: 20px;
+  text-align: center;
+}
+
+header img {
+  height: 125px;
 }
 
 p {
@@ -19,31 +54,11 @@ p:first-letter {
   padding: 1px 2px 0 0;
 }
 
-article {
-  text-align: left;
+sup {
+    vertical-align: super;
+    font-size: 60%;
 }
 
-footer {
-  clear: both;
-  font-size: 75%;
-}
-
-figcaption {
-  font-size: 70%;
-  text-align: center;
-}
-
-header {
-  margin-top: 20px;
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-}
-
-.blurb {
-}
 .center {
   clear: both;
   position: relative;
@@ -56,20 +71,20 @@ h1 {
   top: 0%;
 }
 
-.photos {
-  height: 120px;
+.comments {
+  padding-top: 25px;
 }
 
 .figures {
   float: right;
 }
 
+.photos {
+  height: 120px;
+}
+
 .seal {
   float: left;
   height: 120px;
   margin: 25px 10px 0 25px;
-}
-
-.comments {
-  padding-top: 25px;
 }
