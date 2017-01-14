@@ -11,7 +11,7 @@ a:visited {
 }
 
 article {
-  margin:30px;
+  margin:2em 2em 2em 2em;
   text-align:left;
 }
 
@@ -29,6 +29,10 @@ figcaption {
   text-align:center;
 }
 
+figure {
+  margin:2em 0 0 0;
+}
+
 footer {
   clear:both;
   font-size:75%;
@@ -40,19 +44,24 @@ h1 {
 
 h4 {
   clear:both;
-  padding-top:40px;
+  padding-top:3em;
 }
 
 header {
-  margin-top:20px;
+  margin-top:2em;
   text-align:center;
 }
 
 header img {
-  height:125px;
+  width:5em;
+}
+
+img {
+  width:6em;
 }
 
 p {
+  margin:0 2em 0 2em;
   font-size:95%;
 }
 
@@ -65,36 +74,17 @@ p:first-letter {
 }
 
 sup {
-    vertical-align:super;
-    font-size:60%;
+  vertical-align:super;
+  font-size:60%;
 }
 
-.center {
-  clear:both;
-  position:relative;
+.col1 {
 }
 
-.center img figure {
-  margin:0;
-  padding:0;
-  position:absolute;
-  top:0%;
+.col2 {
+  width:100%;
 }
 
-.comments {
-  padding-top:25px;
-}
-
-.figures {
+.col3 {
   float:right;
-}
-
-.photos {
-  width:120px;
-}
-
-.seal {
-  float:left;
-  margin:25px 10px 0 25px;
-  width:120px;
 }
