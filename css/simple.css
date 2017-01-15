@@ -63,14 +63,14 @@ img {
 }
 
 p {
-  margin:0 2em 1em 2em;
+  margin:0 2em 0.6em 2em;
   font-size:95%;
 }
 
-p:first-letter {
+p:first-child:first-letter {
   color:#579;
   float:left;
-  font-size:300%;
+  font-size:2.75em;
   line-height:70%;
   padding:1px 2px 0 0;
 }
@@ -78,9 +78,6 @@ p:first-letter {
 sup {
   vertical-align:super;
   font-size:60%;
-}
-
-.col1 {
 }
 
 .col2 {
