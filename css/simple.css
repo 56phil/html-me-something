@@ -55,7 +55,8 @@ header {
 }
 
 header img {
-  width:5em;
+  margin:.33em;
+  width:6.5em;
 }
 
 img {
@@ -80,6 +81,9 @@ sup {
   font-size:60%;
 }
 
+.col1 {
+  float:left;
+}
 .col2 {
   width:100%;
 }
