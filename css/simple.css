@@ -1,3 +1,11 @@
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 a:link {
   text-decoration:none;
 }
@@ -11,12 +19,13 @@ a:visited {
 }
 
 article {
-  margin:2em 2em 2em 2em;
+  margin:2em;
   text-align:left;
 }
 
 article td {
-  padding: 1.5em 0 1.5em 0;
+  @include vertical-align();
+  padding: 1em 0 1em 0;
 }
 
 body {
@@ -42,10 +51,14 @@ footer {
   clear:both;
   font-family:sans-serif;
   font-size:55%;
-  margin-top:-5em;
+  margin-top:-3em;
 }
 
-footer td.col1, footer td.col3 {
+footer img, header img {
+  width:4.5em;
+}
+
+footer td {
   padding:0 1em 1em 1em;
 }
 
@@ -65,17 +78,22 @@ h4 {
   padding-top:2em;
 }
 
-header td.col1, header td.col3 {
-  margin:1em 1em 0 1em;
+header table {
+  margin-top:-3.0em;
 }
 
-header td.col2 {
-  padding-top:1.2em;
+header .col2 {
   text-align:center;
+  width:100%;
+}
+
+header .col2 img {
+  padding-top:4em;
+  width:5.25em;
 }
 
 img {
-  width:7em;
+  width:6em;
 }
 
 p {
@@ -98,13 +116,6 @@ sup {
   font-size:55%;
 }
 
-.col1 {
-  float:left;
-}
 .col2 {
   width:100%;
-}
-
-.col3 {
-  float:right;
 }
