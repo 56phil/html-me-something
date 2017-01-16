@@ -69,17 +69,15 @@ footer td.col2 {
 }
 
 h1 {
-  margin-top:1em;
   text-align:center;
 }
 
 h4 {
-  clear:both;
   padding-top:2em;
 }
 
 header table {
-  margin-top:-3.0em;
+  margin:-2.7em 0.8em 0 0.8em;
 }
 
 header .col2 {
