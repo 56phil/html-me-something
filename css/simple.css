@@ -16,7 +16,7 @@ article {
 }
 
 article td {
-  padding: .25em 0 2em 0;
+  padding: 1.5em 0 1.5em 0;
 }
 
 body {
@@ -34,6 +34,10 @@ figcaption {
   text-align:center;
 }
 
+figure {
+  margin:0;
+}
+
 footer {
   clear:both;
   font-family:sans-serif;
@@ -41,7 +45,7 @@ footer {
   margin-top:-5em;
 }
 
-footer td.col1, td.col3 {
+footer td.col1, footer td.col3 {
   padding:0 1em 1em 1em;
 }
 
@@ -62,16 +66,16 @@ h4 {
 }
 
 header td.col1, header td.col3 {
-  margin:2em 2em 0 2em;
+  margin:1em 1em 0 1em;
 }
 
 header td.col2 {
-  padding-top:2.25em;
+  padding-top:1.2em;
   text-align:center;
 }
 
 img {
-  width:6em;
+  width:7em;
 }
 
 p {
@@ -83,6 +87,7 @@ p:first-child:first-letter {
   color:#55a;
   float:left;
   font-family:cursive;
+  font-weight:bold;
   line-height:79%;
   font-size:2.45em;
   padding:.05em .2em 0 0;
