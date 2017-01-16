@@ -15,6 +15,10 @@ article {
   text-align:left;
 }
 
+article td {
+  padding: .25em 0 2em 0;
+}
+
 body {
   background-color:lightblue;
   color:black;
@@ -30,40 +34,43 @@ figcaption {
   text-align:center;
 }
 
-figure {
-  margin:0 0 .7em 0;
-  position: relative;
-  top: 50%;
-  transform: translateY(0);
-}
-
 footer {
   clear:both;
   font-family:sans-serif;
   font-size:55%;
+  margin-top:-5em;
 }
 
-footer .col2 {
+footer td.col1, td.col3 {
+  padding:0 1em 1em 1em;
+}
+
+footer td.col2 {
+  padding-top:3em;
   text-align:center;
+  width:100%;
 }
 
 h1 {
+  margin-top:1em;
   text-align:center;
 }
 
 h4 {
   clear:both;
-  padding-top:3em;
+  padding-top:2em;
 }
 
 header {
-  margin-top:2em;
-  text-align:center;
+  margin:1em 1em 0 1em;
 }
 
-header img {
-  margin:1.5em;
-  width:6.5em;
+header .col1,.col3 {
+  margin:0;
+  padding:0;
+}
+header .col2 {
+  text-align:center;
 }
 
 img {
@@ -76,7 +83,7 @@ p {
 }
 
 p:first-child:first-letter {
-  color:#575;
+  color:#55a;
   float:left;
   font-family:cursive;
   line-height:79%;
