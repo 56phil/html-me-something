@@ -61,15 +61,12 @@ h4 {
   padding-top:2em;
 }
 
-header {
-  margin:1em 1em 0 1em;
+header td.col1, header td.col3 {
+  margin:2em 2em 0 2em;
 }
 
-header .col1,.col3 {
-  margin:0;
-  padding:0;
-}
-header .col2 {
+header td.col2 {
+  padding-top:2.25em;
   text-align:center;
 }
 
