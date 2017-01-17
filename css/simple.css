@@ -97,7 +97,7 @@ img {
 }
 
 p {
-  margin:0 2em 0.8em 2em;
+  margin:0 2em 0.6em 2em;
   font-size:99%;
 }
 
@@ -121,5 +121,6 @@ sup {
 }
 
 .col2 {
+  /*border:3px solid yellow;*/
   width:100%;
 }
