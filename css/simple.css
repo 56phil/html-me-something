@@ -76,10 +76,6 @@ h3 {
   padding-top:1em;
 }
 
-header table {
-  margin:-2.7em 1.2em 0 1.2em;
-}
-
 header .col2 {
   text-align:center;
   width:100%;
@@ -116,6 +112,10 @@ p:first-child:first-letter {
 sup {
   vertical-align:super;
   font-size:55%;
+}
+
+#header-content {
+  margin:-2.7em 1.2em 0 1.2em;
 }
 
 .col2 {
