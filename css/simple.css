@@ -33,8 +33,10 @@ body {
   color:black;
   font-family:Georgia "Palatino Linotype" "Book Antiqua" Palatino serif;
   font-size:20px;
+  height:100%;
   margin:0;
   padding:0;
+  width:100%;
 }
 
 figcaption {
@@ -54,7 +56,7 @@ footer {
 }
 
 footer img {
-  width:4.25em;
+  width:4.3em;
 }
 
 footer td {
@@ -82,20 +84,20 @@ header .col2 {
 }
 
 header img {
-  width:4.25em;
+  width:4.3em;
 }
 
 header .col2 img {
   padding-top:3em;
-  width:7.25em;
+  width:7.2em;
 }
 
 img {
-  width:7.75em;
+  width:7.7em;
 }
 
 p {
-  margin:0 2em 0.6em 2em;
+  margin:0 2em 0.8em 2em;
   font-size:99%;
 }
 
@@ -105,7 +107,7 @@ p:first-child:first-letter {
   font-family:cursive;
   font-weight:bold;
   line-height:79%;
-  font-size:2.45em;
+  font-size:2.5em;
   padding:.05em .2em 0 0;
 }
 
