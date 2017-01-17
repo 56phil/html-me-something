@@ -39,7 +39,7 @@ body {
 
 figcaption {
   font-family:sans-serif;
-  font-size:60%;
+  font-size:67%;
   text-align:center;
 }
 
@@ -50,12 +50,11 @@ figure {
 footer {
   clear:both;
   font-family:sans-serif;
-  font-size:55%;
   margin-top:-3em;
 }
 
-footer img, header img {
-  width:4.5em;
+footer img {
+  width:4.25em;
 }
 
 footer td {
@@ -63,8 +62,9 @@ footer td {
 }
 
 footer td.col2 {
-  padding-top:3em;
+  font-size:50%;
   text-align:center;
+  vertical-align:bottom;
   width:100%;
 }
 
@@ -72,12 +72,12 @@ h1 {
   text-align:center;
 }
 
-h4 {
-  padding-top:2em;
+h3 {
+  padding-top:1em;
 }
 
 header table {
-  margin:-2.7em 0.8em 0 0.8em;
+  margin:-2.7em 1.2em 0 1.2em;
 }
 
 header .col2 {
@@ -85,13 +85,17 @@ header .col2 {
   width:100%;
 }
 
+header img {
+  width:4.25em;
+}
+
 header .col2 img {
-  padding-top:4em;
-  width:5.25em;
+  padding-top:3em;
+  width:7.25em;
 }
 
 img {
-  width:6em;
+  width:7.75em;
 }
 
 p {
