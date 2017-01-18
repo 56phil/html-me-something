@@ -24,8 +24,8 @@ article {
 }
 
 article td {
-  /*@include vertical-align();*/
-  /*padding: 1em 0 1em 0;*/
+  @include vertical-align();
+  padding: 1em 0 1em 0;
 }
 
 html, body {
@@ -128,10 +128,6 @@ article tr:first-child .col2 {
 
 .col1, .col3 {
   padding:1em;
-}
-
-.col2 {
-  /*margin-right:-9em;*/
 }
 
 section {
