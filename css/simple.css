@@ -19,7 +19,7 @@ a:visited {
 }
 
 article {
-  margin:2em;
+  margin:1.4em;
   text-align:left;
 }
 
@@ -52,7 +52,7 @@ figure {
 footer {
   clear:both;
   font-family:sans-serif;
-  margin-top:-1em;
+  margin-top:-0.4em;
 }
 
 footer img {
@@ -60,7 +60,7 @@ footer img {
 }
 
 footer td {
-  padding:0 1em 1em 1em;
+  padding:0 1em 0 1em;
 }
 
 footer td.col2 {
@@ -70,24 +70,24 @@ footer td.col2 {
   width:100%;
 }
 
-h1 {
-  text-align:center;
-  margin-top:-0.9em;
+h5 {
+  margin:0;
+  padding:0;
 }
-
 header .col2 {
   text-align:center;
   width:100%;
 }
 
 header img {
-  margin-top:1em;
+  margin:1.4em -0.6em 0 -0.6em;
   width:3em;
 }
 
-header .col2 img {
-  padding-top:3em;
-  width:3.3em;
+header .col2 figure {
+  padding-top:2.2em;
+  text-align:center;
+  width100%:
 }
 
 img {
@@ -95,8 +95,8 @@ img {
 }
 
 p {
-  margin:0.4em 2em 0.4em 2em;
-  font-size:99%;
+  margin:.4em .3em .4em .3em;
+  font-size:89%;
 }
 
 p:first-child:first-letter {
@@ -115,7 +115,11 @@ sup {
 }
 
 article tr .col2 {
-  border-top:2px solid blue;
+  border-top:3px solid blue;
+}
+
+article tr:first-child {
+  margin-top:0;
 }
 
 article tr:first-child .col2 {
@@ -133,23 +137,22 @@ article tr:first-child .col2 {
 section {
   position: relative;
   border: 1px solid blue;
-  padding-top: 37px;
+  padding-top: 39px;
   background: blue;
 }
 
 section.positioned {
   position: absolute;
-  top:100px;
   width:100%;
 }
 
 .container {
-  height: 24em;
+  height: 25em;
   overflow-y: auto;
 }
 
 article table {
-  background: lightblue;
+  background:AntiqueWhite;
   border-spacing: 0;
   color: #000;
 }
@@ -167,10 +170,10 @@ article th {
 
 article th div{
   background: transparent;
-  color: #fff;
+  color:AntiqueWhite;
   display:inline;
   line-height: normal;
-  margin-left:-11.6em;
+  margin-left:-13.6em;
   margin-top:0.40em;
   position: absolute;
   text-align:center;
@@ -184,5 +187,3 @@ article th:first-child div{
 tr.header {
   text-align:center;
 }
-
-
