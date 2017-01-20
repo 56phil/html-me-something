@@ -19,13 +19,13 @@ a:visited {
 }
 
 article {
-  margin:1.4em;
+  margin:1.1rem;
   text-align:left;
 }
 
 article td {
   @include vertical-align();
-  padding: 1em 0 1em 0;
+  padding: 1rem 0 1rem 0;
 }
 
 html, body {
@@ -52,15 +52,15 @@ figure {
 footer {
   clear:both;
   font-family:sans-serif;
-  margin-top:-0.4em;
+  margin-top:-0.4rem;
 }
 
 footer img {
-  width:3em;
+  width:3rem;
 }
 
 footer td {
-  padding:0 1em 0 1em;
+  padding:0 1rem 0 1rem;
 }
 
 footer td.col2 {
@@ -80,22 +80,22 @@ header .col2 {
 }
 
 header img {
-  margin:1.4em -0.6em 0 -0.6em;
-  width:3em;
+  margin:1.4rem -0.6rem 0 -0.6rem;
+  width:3rem;
 }
 
 header .col2 figure {
-  padding-top:2.2em;
+  padding-top:2.2rem;
   text-align:center;
   width100%:
 }
 
 img {
-  width:6em;
+  width:6rem;
 }
 
 p {
-  margin:.4em .3em .4em .3em;
+  margin:.4rem .3rem .4rem .3rem;
   font-size:89%;
 }
 
@@ -105,8 +105,8 @@ p:first-child:first-letter {
   font-family:cursive;
   font-weight:bold;
   line-height:79%;
-  font-size:2.5em;
-  padding:.05em .2em 0 0;
+  font-size:2.5rem;
+  padding:.05rem .2rem 0 0;
 }
 
 sup {
@@ -127,11 +127,11 @@ article tr:first-child .col2 {
 }
 
 #header-content {
-  margin:-2.7em 1.2em 0 1.2em;
+  margin:-2.7rem 1.2rem 0 1.2rem;
 }
 
 .col1, .col3 {
-  padding:1em;
+  padding:1rem;
 }
 
 section {
@@ -147,12 +147,12 @@ section.positioned {
 }
 
 .container {
-  height: 25em;
+  height: 25rem;
   overflow-y: auto;
 }
 
 article table {
-  background:AntiqueWhite;
+  background:lightgrey;
   border-spacing: 0;
   color: #000;
 }
@@ -170,11 +170,11 @@ article th {
 
 article th div{
   background: transparent;
-  color:AntiqueWhite;
+  color:lightgrey;
   display:inline;
   line-height: normal;
-  margin-left:-13.6em;
-  margin-top:0.40em;
+  margin-left:-13.6rem;
+  margin-top:0.40rem;
   position: absolute;
   text-align:center;
   top: 0;
